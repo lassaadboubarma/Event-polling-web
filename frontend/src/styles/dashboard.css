@@ -1,0 +1,105 @@
+/* Dashboard Container */
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Home Button */
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.home-button button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-button button:hover {
+    background-color: #0056b3;
+}
+
+/* Action Buttons */
+.dashboard-actions {
+    margin: 20px 0;
+}
+
+.dashboard-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-button:hover {
+    background-color: #0056b3;
+}
+
+/* Event List */
+.dashboard-events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.event-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.event-item h4 {
+    margin: 0;
+    color: #333;
+}
+
+.event-item button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.event-item button:first-of-type {
+    background-color: #007BFF;
+}
+
+.event-item button:first-of-type:hover {
+    background-color: #0056b3;
+}
+
+.event-item button:last-of-type {
+    background-color: #dc3545;
+}
+
+.event-item button:last-of-type:hover {
+    background-color: #c82333;
+}
+
+/* Logout Button */
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
